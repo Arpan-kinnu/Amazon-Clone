@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div id="png-div">
+                <div class="amazon-png-image">
+                    <a href="#"><img style="margin-top: 10px;" src="./Accest/Amazon Logo Png.png" alt="" height="70%"
+                            width="100%"></a>
+                </div>
+                <span id="in">.in</span>
+            </div>
+            <a style="text-decoration: none;" href="#">
+                <div id="location-update">
+                    <i id="location-icon" class="fa-solid fa-location-dot"></i>
+                    <div id="u-l">
+                        <span
+                            style="color: #cccccc; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 500;">Delivering
+                            to Ghaziabad 201002</span>
+                        <span
+                            style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bolder;">Update
+                            Location</span>
+                    </div>
+                </div>
+            </a>
+            <div id="search-input">
+                <span id="all"></span>
+                <div id="select">
+
+                    <select id=""
+                        style="width: 100%; height: 100%; background-color: #f0f0f0; border: 0; cursor: pointer;">
+                        <!-- <span style="color: white;">All</span> -->
+                        <option value="" style="text-align: left; border-top-left-radius: 5px;">All</option>
+                        <option value="">All Categories</option>
+                        <option value="">Alexa Skills</option>
+                        <option value="">Amazon Devices</option>
+                        <option value="">Amazon Fashion</option>
+                        <option value="">Amazon Fresh</option>
+                        <option value="">Amazon Fresh Meat</option>
+                        <option value="">Amazon Pharmarcy</option>
+                        <option value="">Appliances</option>
+                        <option value="">Apps & Games</option>
+                        <option value="">Audible Audiobooks</option>
+                        <option value="">Baby</option>
+                        <option value="">Beauty</option>
+                        <option value="">Books</option>
+                        <option value="">Car & Motorbike</option>
+                        <option value="">Clothing & Accessories</option>
+                        <option value="">Collectibles</option>
+                        <option value="">Computer & Accessories</option>
+                        <option value="">Deals</option>
+                        <option value="">Electronic</option>
+                        <option value="">Furniture</option>
+                        <option value="">Garden & Outdoors</option>
+                        <option value="">Gifts Cards</option>
+                        <option value="">Grocery & Gourmet Food</option>
+                        <option value="">Health & Prasonal Care</option>
+                        <option value="">Home & Kitchen</option>
+                        <option value="">Industrial & Scientific</option>
+                        <option value="">Jewellry</option>
+                        <option value="">Kindly Store</option>
+                        <option value="">Luggage & Bags</option>
+                        <option value="">Luxury Beauty</option>
+                        <option value="">Movies & TV Shows</option>
+                        <option value="">MP3 Music</option>
+                        <option value="">Music</option>
+                        <option value="">Musical Instruments</option>
+                        <option value="">Offics Products</option>
+                        <option value="">Pet Supplies</option>
+                        <option value="">Prime Video</option>
+                        <option value="">Shoes & Handbags</option>
+                        <option value="">Software</option>
+                        <option value="">Sports, Fitness & Outdoors</option>
+                        <option value="">Subscribe & Save</option>
+                        <option value="">Tools & Home Improvement </option>
+                        <option value="">Toys & Games</option>
+                        <option value="">Under /-500</option>
+                        <option value="">Video Games</option>
+                        <option value="">Watches</option>
+                    </select>
+
+                </div>
+                <div id="input">
+                    <input style="height: 40px; width: 488px; border: 0px; padding-left: 15px; font-size: 15px;"
+                        type="text" placeholder="Search Amazon.in">
+                </div>
+                <div id="button">
+                    <a href="#">
+                        <button
+                            style="height: 40px; width: 45px; border: 0px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: #ffce12; cursor: pointer;"><i
+                                style="font-size: 20px;" class="fa-solid fa-magnifying-glass"></i></button>
+                    </a>
+
+                </div>
+            </div>
+            <div style="cursor: pointer;" id="language">
+
+                <div id="flag">
+                    <img style=" position: relative; top: 0px;" src="./Accest/Flag_of_India.png" alt="" height="16px"
+                        width="21px">
+                </div>
+                <div id="h3">
+                    <h3 style="color: white;">EN</h3>
+                </div>
+
+            </div>
+            <div style="cursor: pointer;" id="account">
+                <div id="div1">
+                    <div>
+                        <p style="line-height: 13px;">
+                            <span
+                                style=" color: white; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 500;">
+                                Hello, sign in
+                            </span>
+                            <span
+                                style=" color: white; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bolder;">
+                                Account & Lists
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style="cursor: pointer;" id="orders">
+                <div style="color: white;">
+                    <p style="line-height: 13px;"><span
+                            style="display: block; font-size: 12px; font-weight: 400;">Returns</span>
+                        <span style="font-size: 14px; font-weight: 700;">& Orders</span>
+                    </p>
+                </div>
+            </div>
+            <div style="cursor: pointer;" id="cart">
+                <div style="color: white; font-size: 25px;">
+                    <i class="fa-duotone fa-solid fa-cart-shopping"></i>
+                    <span style="font-size: 14px; font-weight: 700;">Cart</span>
+                </div>
+            </div>
+        </nav>
+        <div id="nav2">
+            <div id="nav2-2">
+                <div style="cursor: pointer;" id="Menu">
+                    <span style="padding-right: 5px;"><i style="font-size: 18px;"
+                            class="fa-duotone fa-solid fa-bars"></i>
+                    </span>
+                    <span>All</span>
+                </div>
+                <div style="cursor: pointer;" id="fresh">
+                    <span>Fresh</span>
+                </div>
+                <div style="cursor: pointer;" id="mx-player">
+                    <span>MX-Player</span>
+                </div>
+                <div style="cursor: pointer;" id="sell">
+                    <span>Sell</span>
+                </div>
+                <div style="cursor: pointer;" id="bestsellers">
+                    <span>Best Sellers</span>
+                </div>
+                <div style="cursor: pointer;" id="today-deal">
+                    <span>Today's Deal</span>
+                </div>
+                <div style="cursor: pointer;" id="mobiles">
+                    <span>Mobilies</span>
+                </div>
+                <div style="cursor: pointer;" id="new-releases">
+                    <span>New Releases</span>
+                </div>
+                <div style="cursor: pointer;" id="prime">
+                    <span>Prime</span>
+                </div>
+                <div style="cursor: pointer;" id="amazon-pay">
+                    <span>Amazon Pay</span>
+                </div>
+                <div style="cursor: pointer;" id="electronic">
+                    <span>Electronic</span>
+                </div>
+                <div style="cursor: pointer;" id="customer-service">
+                    <span>Customer Service</span>
+                </div>
+                <div style="cursor: pointer;" id="home-kitchen">
+                    <span>Home & Kitchen</span>
+                </div>
+                <div style="cursor: pointer;" id="fashion">
+                    <span>Fashion</span>
+                </div>
+                <div style="cursor: pointer;" id="computers">
+                    <span>Computers</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main-bg-img"></div>
+        <div class="content-boxs">
+            <div class="box" id="box1">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Appliances for your home | Up to 55% off</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1">
+
+                            <div class="image-1">
+                                <div class="img-div img-div-1-1"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span>
+                            </div>
+                            <div class="image-2">
+                                <div class="img-div img-div-1-2"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2">
+                            <div class="image-3">
+                                <div class="img-div img-div-1-3"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Microwaves</span>
+                            </div>
+                            <div class="image-4">
+                                <div class="img-div img-div-1-4"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Washing Machines</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">See more</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Revamp your home in style</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1">
+
+                            <div class="image-1">
+                                <div class="img-div img-div-2-1"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Cushion covers, bedsheets &
+                                    more</span>
+                            </div>
+                            <div class="image-2">
+                                <div class="img-div img-div-2-2"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Figurines, vases &
+                                    more</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2">
+                            <div class="image-3">
+                                <div class="img-div img-div-2-3"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Home Storage</span>
+                            </div>
+                            <div class="image-4">
+                                <div class="img-div img-div-2-4"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Lighting solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">Explore all</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Up to 75% off | Deals on headphones</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-3-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div class="img-div-1 img-div-3-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-3-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-3-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box4" id="box4">
+                <div class="box4-1">
+                    <div class="sign-in-for-best-main">
+                        <div class="sign-in-for-best">
+                            <h2 style="font-size: 21px; font-weight: bolder;">Sign in for your best experience</h2>
+                        </div>
+                    </div>
+                    <div class="button-of-sign-in-securely-main">
+                        <div class="button-of-sign-in-securely">
+                            <span
+                                style="height: 100%; width: 100%; display: block; text-align: center; font-size: 14px; padding-top: 9px; background-color: #ffce12; border-radius: 20px; font-weight: 500;">Sign
+                                in securely</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="parent-of-box-4-2">
+                    <div class="box4-2">
+                        <div class="img-of-box4-2">
+                            <img style="margin: 0; width: 120px" src="./Accest/shop.png" alt="" />
+                        </div>
+                        <div class="second-div-of-box4-2">
+                            <div class="div-of-second-div-inside">
+                                <span
+                                    style="color: rgb(64, 64, 250); font-size: 15px; display: block; margin-bottom:10px;">Grapes
+                                    Hanging Soap for kids & Adults | Fruity Scent Bathing Bar with Rope |...</span>
+                                <div class="div-of-save-coupon">
+                                    <span
+                                        style="background-color: rgb(129, 218, 129); font-size: 13px; padding: 4px; border-radius: 2px;">Save
+                                        5%</span>
+                                    <span style="font-size: 13px; letter-spacing: 0.5px;">with
+                                        coupon</span>
+                                </div>
+                                <div class="parent-of-ruppee">
+                                    <div class="div-of-ruppee">
+                                        <span style="color: red;">-60%</span>
+                                        <span style="padding-left: 5px; font-size: 16px;"><sup> <i
+                                                    style="font-size: 10px;" class="fa-solid fa-indian-rupee-sign"></i>
+                                            </sup>99<sup>00</sup></span>
+                                    </div>
+                                </div>
+                                <div class="parent-of-mrp">
+                                    <div class="div-of-mrp">
+                                        <span style="font-size: 13px;">M.R.P.:<i style="font-size: 10px;"
+                                                class="fa-solid fa-indian-rupee-sign"></i>
+                                            <p style="display: inline-block; text-decoration: line-through;">199</p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="div-of-img-prime">
+                                    <span><img style="margin: 10;" src="./Accest/prime.png" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-boxs">
+            <div class="box" id="box1">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Starting ₹49 | Deals on home essentials</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1">
+
+                            <div class="image-1">
+                                <div class="img-div img-div-12-1"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Cleaning supplies</span>
+                            </div>
+                            <div class="image-2">
+                                <div class="img-div img-div-12-2"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Bathroom accessories</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2">
+                            <div class="image-3">
+                                <div class="img-div img-div-12-3"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Home Tools</span>
+                            </div>
+                            <div class="image-4">
+                                <div class="img-div img-div-12-4"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Wallpapers</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">Explore all</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Automotive essentials | Up to 60% off</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1">
+
+                            <div class="image-1">
+                                <div class="img-div img-div-22-1"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Cleaning accessories</span>
+                            </div>
+                            <div class="image-2">
+                                <div class="img-div img-div-22-2"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Tyre & Rim care</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2">
+                            <div class="image-3">
+                                <div class="img-div img-div-22-3"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Helmets</span>
+                            </div>
+                            <div class="image-4">
+                                <div class="img-div img-div-22-4"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Vacuum cleaner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">See more</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Starting ₹199 | Amazon Brands & more</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1">
+
+                            <div class="image-1">
+                                <div class="img-div img-div-32-1"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Starting <i
+                                        class="fa-solid fa-indian-rupee-sign"></i>199 | Bedsheets</span>
+                            </div>
+                            <div class="image-2">
+                                <div class="img-div img-div-32-2"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Starting <i
+                                        class="fa-solid fa-indian-rupee-sign"></i>199 | Curtains</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2">
+                            <div class="image-3">
+                                <div class="img-div img-div-32-3"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Minimum 40% off | Ironing
+                                    board & more</span>
+                            </div>
+                            <div class="image-4">
+                                <div class="img-div img-div-32-4"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Up to 60% off | Home
+                                    decor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">See More</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box4-2">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Up to 50% off | Baby care & toys | Amazon
+                            Brands</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1">
+
+                            <div class="image-1">
+                                <div class="img-div img-div-42-1"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Up to 50% off | Baby Diapers
+                                    & Wipes</span>
+                            </div>
+                            <div class="image-2">
+                                <div class="img-div img-div-42-2"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Up to 50% off | Ride
+                                    ons</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2">
+                            <div class="image-3">
+                                <div class="img-div img-div-42-3"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Starting <i
+                                        class="fa-solid fa-indian-rupee-sign"></i>649 | RC cars</span>
+                            </div>
+                            <div class="image-4">
+                                <div class="img-div img-div-42-4"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">Up to 50% off | Baby safty
+                                    essentials</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">See all offers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-box-2">
+            <div class="inside-div-of-content-box-2">
+                <div class="h2-of-content-box-2">
+                    <h2 style="font-size: 24px; font-weight: bolder;">More items to consider</h2>
+                </div>
+                <span style="padding-left: 15px; font-size: 16px;
+                color: #2162A1;">See more</span>
+
+                <div class="images-of-content-box-2">
+                    <div class="parent-of-img-content-box-2">
+                        <div class="img-of-content-box-2">
+                            <img style="height: 220px;" src="./Accest/shop.png" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/shop2.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/shop3.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/shop4.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/shop5.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/shop6.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/shop7.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="content-box-2">
+            <div class="inside-div-of-content-box-2">
+                <div class="h2-of-content-box-2">
+                    <h2 style="font-size: 24px; font-weight: bolder;">Related to items you've viewed</h2>
+                </div>
+                <span style="padding-left: 15px; font-size: 16px;
+                color: #2162A1;">See more</span>
+
+                <div class="images-of-content-box-2">
+                    <div class="parent-of-img-content-box-2">
+                        <div class="img-of-content-box-2">
+                            <img style="height: 180px;" src="./Accest/ear5.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/ear-3.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/ear7.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/ear6.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/ear8.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/ear9.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content-boxs">
+            <div class="box" id="box1">
+                <div style="height: 30px;" class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Keep shopping for</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1">
+
+                            <div class="image-1">
+                                <div class="img-div img-div-13-1"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">boAt 2026 Launch...
+                                    <i class="fa-solid fa-indian-rupee-sign"></i>1,099 <sup>00</sup>
+                                </span>
+                            </div>
+                            <div class="image-2">
+                                <div class="img-div img-div-13-2"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">boAt Nirvana lon, 1...
+                                    <i class="fa-solid fa-indian-rupee-sign"></i>1,799 <sup>00</sup>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2">
+                            <div class="image-3">
+                                <div class="img-div img-div-13-3"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">HAMMER Airflow N...
+                                    <i class="fa-solid fa-indian-rupee-sign"></i>599 <sup>00</sup>
+                                </span>
+                            </div>
+                            <div class="image-4">
+                                <div class="img-div img-div-13-4"></div>
+                                <span style="font-size: 12px !important; font-weight: 700;">realme Buds T200x...
+                                    <i class="fa-solid fa-indian-rupee-sign"></i>1,454 <sup>00</sup>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">See more</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <div style="height: 30px;" class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Pick up where you left off</h2>
+                    </div>
+                </div>
+                <div class="div-of-water-melon-img">
+                    <div class="water-melon-image">
+                        <img style="margin-top: 0;" src="./Accest/water-melon.jpg" alt="" height="127px">
+                    </div>
+                </div>
+                <div class="span-of-content-box">
+                    <div class="div-of-span-of-content-box">
+                        <span style="text-transform: capitalize; font-size: 13px; font-weight: 200;">keshav creation
+                            foam 3D fruit soft pillow plush cushion orange, kiwi & watermelon...</span>
+                    </div>
+                </div>
+                <div class="this-is-also-a-part-of-span-of-content-box">
+                    <div class="child-span-two-of-content-box">
+                        <span style="font-size: 18px; margin-right: 10px;"><i style="font-size: 13px;"
+                                class="fa-solid fa-indian-rupee-sign"></i>799 <sup>00</sup></span>
+                        <span style="font-size: 12px; color: #565959;">M.R.P:<i
+                                class="fa-solid fa-indian-rupee-sign"></i>
+                            <p style="display: inline-block; text-decoration: line-through;">999.00</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="inside-divs-of-content-box3">
+                    <div class="child-of-inside-divs-of-content-box3">
+                        <div id="box--1" style="border: 2px solid blue;" class="boxs">
+                            <img style="margin: 0;" src="./Accest/water-melon.jpg" alt="" height="28px">
+                        </div>
+                        <div class="boxs">
+                            <img style="margin: 0;" src="./Accest/./shop8.jpg" alt="" height="50px">
+                        </div>
+                        <div class="boxs">
+                            <!-- .img3-of-content-bo -->
+                            <img style="margin: 0;" src="./Accest/shop9.jpg" alt="" height="50px">
+                        </div>
+                        <div class="boxs">
+                            <img style="margin: 0;" src="./Accest/shop10.jpg" alt="" height="50px">
+                        </div>
+                    </div>
+                </div>
+                <div class="button-of-see-more">
+                    <div class="button">
+                        <span style="font-size: 13px; font-weight: 200; color: blue;">See more</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Customers’ Most-Loved Fashion for you</h2>
+                    </div>
+                </div>
+
+                <div style="height: 200px;" class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div style="height: 50px;" class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div style="height: 100px;" class="img-div-1 img-div-33-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-33-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-33-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-33-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">Explore all</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box4-3">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Starting ₹70,348 | Smart rides, zero
+                            emissionsu</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-43-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-43-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-43-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-43-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-box-2">
+            <div class="inside-div-of-content-box-2">
+                <div class="h2-of-content-box-2">
+                    <h2 style="font-size: 24px; font-weight: bolder;">Min.50% off | Top home essentials from Emerging
+                        brands</h2>
+                </div>
+                <span style="padding-left: 15px; font-size: 16px;
+                color: #2162A1;">See more</span>
+
+                <div class="images-of-content-box-2">
+                    <div class="parent-of-img-content-box-2">
+                        <div class="img-of-content-box-2">
+                            <img style="height: 150px;" src="./Accest/home1.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/home2.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/home3.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/home4.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/home5.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/home6.jpg" alt="" height="180px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="content-box-2">
+            <div class="inside-div-of-content-box-2">
+                <div class="h2-of-content-box-2">
+                    <h2 style="font-size: 24px; font-weight: bolder;">Up to 60% off | Best offers on kitchen products
+                        from emerging brands</h2>
+                </div>
+                <span style="padding-left: 15px; font-size: 16px;
+                color: #2162A1;">See more</span>
+
+                <div class="images-of-content-box-2">
+                    <div class="parent-of-img-content-box-2">
+                        <div class="img-of-content-box-2">
+                            <img style="height: 150px;" src="./Accest/img1.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/img2.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/img3.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/img4.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/img5.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/img6.jpg" alt="" height="180px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content-box-8">
+            <div class="parent-of-inside-div-of-content-box-2-sponsored
+            ">
+                <div class="inside-div-of-content-box-2-sponsored">
+                    <div class="img-div-of-content-box-2">
+                        <img src="./Accest/ear11.webp" alt="" height="240px">
+                    </div>
+                    <div class="content-div-of-content-box-2">
+                        <div class="just-child-of-content-box-8">
+                            <div class="div-of-span-of-content-box-8">
+                                <span style="font-size: 18px; display: block;">Noise ALT Buds, 35dB ANC, Spatial Audio,
+                                    45Hrs...</span>
+                                <span style="font-size: 25px; font-weight: bolder;">₹1,999 <sup>00</sup></span>
+                                <span
+                                    style="font-size: 16px; font-weight: 500; text-decoration: line-through;">₹2,299.00</span>
+                                <span style="margin-left: 10px;"><img src="./Accest/prime.png" alt=""></span>
+                                <div class="span-of-show-now-button-of-content-box-8"><span
+                                        style="display: inline-block; background-color: #fa8900; padding: 8px 14px; border-radius: 20px; margin-top: 10px;">Shop
+                                        Now</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parent-of-text-of-sponsored">
+                <div class="text-of-sponsored">
+                    <p style="text-align: end; color: #555555; font-size: 13px;">Sponsored <i
+                            class="fa-solid fa-circle-info"></i></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-boxs">
+            <div class="box" id="box1-4">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Starting ₹70,348 | Smart rides, zero
+                            emissionsu</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-43-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-43-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-43-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-43-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box2-4">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Up to 45% off | Electronics & accessories</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-14-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-14-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-14-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-14-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box3-4">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Starting ₹99 | Start your fitness journey</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div class="just-child-of-main-div-of-box">
+                        <div class="i-also-child-of-main-div-of-box">
+
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="button-of-see-more">
+                        <div class="button">
+                            <span style="font-size: 13px; font-weight: 200; color: blue;">See more</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" id="box4-4">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Best Sellers in Beauty</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-44-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-44-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-44-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-44-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box-2">
+            <div class="inside-div-of-content-box-2">
+                <div class="h2-of-content-box-2">
+                    <h2 style="font-size: 24px; font-weight: bolder;">Up to 40% off | Must-have kitchen appliancess</h2>
+                </div>
+                <span style="padding-left: 15px; font-size: 16px;
+                color: #2162A1;">See all offers</span>
+
+                <div class="images-of-content-box-2">
+                    <div class="parent-of-img-content-box-2">
+                        <div class="img-of-content-box-2">
+                            <img style="height: 200px;" src="./Accest/kitchen1.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen2.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen3.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen4.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen5.jpg" alt="" height="180px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen6.jpg" alt="" height="180px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content-boxs">
+            <div class="box" id="box1-5">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Up to 60% off | Kitchen essentials curated
+                            from A…</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-15-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-15-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-15-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-15-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box2-5">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Up to 80% off | Trending handcrafted treasures
+                            fr…</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-25-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-25-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-25-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-25-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box3-5">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Up to 35% Off | Trendy furniture, unbeatable
+                            deals</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-35-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-35-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-35-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-35-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="box4-5">
+                <div class="main-div-h2">
+                    <div class="main-div-h2-2">
+                        <h2 style="font-size: 21px; font-weight: bolder;">Min. 30% off | Curated collections from
+                            Emergin…</h2>
+                    </div>
+                </div>
+
+                <div class="main-div-of-box">
+                    <div style="height: 130px;" class="main-div-of-box-1">
+                        <div class="main-div-of-box-1-1-3">
+
+                            <div class="image-3-1">
+                                <div class="img-div-1 img-div-45-1"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-2">
+                                <div style="height: 100px;" class="img-div-1 img-div-45-2"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-of-box-2">
+                        <div class="main-div-of-box-2-2-3">
+                            <div class="image-3-3">
+                                <div class="img-div-1 img-div-45-3"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Air Conditioners</span> -->
+                            </div>
+                            <div class="image-3-4">
+                                <div class="img-div-1 img-div-45-4"></div>
+                                <!-- <span style="font-size: 12px !important; font-weight: 700;">Refrigerators</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box-2">
+            <div class="inside-div-of-content-box-2">
+                <div class="h2-of-content-box-2">
+                    <h2 style="font-size: 24px; font-weight: bolder;">Up to 60% off | Cookware, kitchen tool & more |
+                        Amazon Launchpad</h2>
+                </div>
+                <span style="padding-left: 15px; font-size: 16px;
+                color: #2162A1;">See all</span>
+
+                <div class="images-of-content-box-2">
+                    <div class="parent-of-img-content-box-2">
+                        <div class="img-of-content-box-2">
+                            <img style="height: 100px;" src="./Accest/kitchen11.jpg" alt="">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen12.jpg" alt="" height="150px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen13.jpg" alt="" height="150px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen14.jpg" alt="" height="150px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen15.jpg" alt="" height="150px">
+                        </div>
+                        <div class="img-of-content-box-2">
+                            <img src="./Accest/kitchen16.jpg" alt="" height="150px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="end-of-main">
+            <div class="end-of-main-h1">
+                <h1 style="font-size: 24px; text-align: center">See personalized recommendations</h1>
+            </div>
+            <div class="end-of-main-button">
+                <div class="parent-of-end-of-main-span">
+                    <span id="span-hover"
+                        style="background-color: #ffce12; text-align: center; font-size: 14px; padding: 7px 70px; border-radius: 15px;">Sign
+                        in</span>
+                </div>
+                <div class="end-of-main-button2">
+                    <div class="parent-of-end-of-main-span-2">
+                        <span style="font-size: 11px;">New customer? <a href="#">Start here</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin-top: 20px;">
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="child-of-footer-first">
+            <span style="color: white; font-size: 15px;">Back to top</span>
+        </div>
+        <div class="child-of-footer-second">
+            <div class="just-child-of-footer-second">
+                <div class="first-div-of-footer">
+                    <h4 style="margin-bottom: 15px; font-size: 18px;">Get to Know Us</h4>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">About
+                        Amazon</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Careers</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Press
+                        Releases</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Amazon
+                        Science</span>
+                </div>
+                <div class="second-div-of-footer">
+                    <h4 style="margin-bottom: 10px; font-size: 18px;">Connect with Us</h4>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Facebook</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Twitter</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Instagram</span>
+                </div>
+                <div class="third-div-of-footer">
+                    <h4 style="margin-bottom: 10px; font-size: 18px;">Make Money with Us</h4>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Sell on
+                        Amazon</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Sell under Amazon
+                        Accelerator</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Protect and Build
+                        Your Brand</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Amazon Global
+                        Selling</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Supply to
+                        Amazon</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Become an
+                        Affiliate</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Fulfilment by
+                        Amazon</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Advertise Your
+                        Products</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Amazon Pay on
+                        Merchants</span>
+                </div>
+                <div class="fourth-div-of-footer">
+                    <h4 style="margin-bottom: 10px; font-size: 18px;">Let Us Help You</h4>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Your
+                        Account</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Returns
+                        Centre</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Recalls and
+                        Product Safety Alerts</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">100% Purchase
+                        Protection</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Amazon App
+                        Download</span>
+                    <span class="hover-of-span"
+                        style="display: block; font-size: 14px; color: #f0f0f0; margin-bottom: 9px;">Help</span>
+                </div>
+            </div>
+            <div class="second-child-of-footer-second">
+                <div class="just-child-of-second-child-of-footer-second">
+                    <img style="cursor: pointer;" src="./Accest/Amazon Logo Png.png" alt="" width="100px">
+                </div>
+            </div>
+        </div>
+        <div class="child-of-footer-third">
+            <div class="just-child-of-footer-third-1">
+                <div class="child-of-footer-third-div-1">
+                    <div class="hover-of-span">
+                        <span style="display: block; font-size: 15px;">AbeBooks</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Books, art
+                            & collectibles</span>
+                    </div>
+                    <div class="hover-of-span">
+                        <span style="display: block; font-size: 15px; margin-top: 20px;">Shopbop</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Designer</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Fashion Brands</span>
+                    </div>
+                </div>
+                <div class="child-of-footer-third-div-2">
+                    <div class="hover-of-span">
+                        <span style="display: block; font-size: 15px;">Amazon Web Services</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Scalable Cloud</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Computing Services</span>
+                    </div>
+                    <div class="hover-of-span">
+                        <span style="display: block; font-size: 15px; margin-top: 20px;">
+                            Amazon Business</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Everything For
+                            Your Business</span>
+                    </div>
+                </div>
+                <div class="child-of-footer-third-div-3">
+                    <div class="hover-of-span">
+                        <span style="display: block; font-size: 15px;">Audible</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Download</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Audio Books</span>
+                    </div>
+                    <div class="hover-of-span">
+                        <span style="display: block; font-size: 15px; margin-top: 20px;">
+                            Amazon Music</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Stream millions of songs</span>
+                    </div>
+                </div>
+                <div class="child-of-footer-third-div-4">
+                    <div class="hover-of-span">
+                        <span style="display: block; font-size: 15px;">
+                            IMDb</span>
+                        <span style="display: block; font-size: 13px; color: grey;">Movies, TV</span>
+                        <span style="display: block; font-size: 13px; color: grey;">& Celebrities</span>
+                    </div>
+                </div>
+            </div>
+            <div class="just-child-of-footer-third-2">
+                <div class="child-of-footer-third-2-span">
+                    <span class="hover-of-span" style="margin-right: 20px; font-size: 13px;">Conditions of Use &
+                        Sale</span>
+                    <span class="hover-of-span" style="margin-right: 20px; font-size: 13px;">Privacy Notice</span>
+                    <span class="hover-of-span" style="font-size: 13px;">Interest-Based Ads</span>
+                </div>
+            </div>
+            <div class="just-child-of-footer-third-2-2">
+                <span style="font-size: 13px;">© 1996-2026, Amazon.com, Inc. or its affiliates</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
