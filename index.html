@@ -12,16 +12,17 @@
 </head>
 
 <body>
+    <!-- <div class="overlay hide"></div> -->
     <header>
         <nav id="nav-bar">
             <div id="png-div">
                 <div class="amazon-png-image">
-                    <a href="#"><img style="margin-top: 10px;" src="./Accest/Amazon Logo Png.png" alt="" height="70%"
+                    <a id="amazon-img-anchor" href="file:///D:/ARPAN/Web%20Development%20Apna%20College/8%20July%202026%20-%20Start/Amazon%20Clone%20Project/Amazon-Clone/index.html"><img style="margin-top: 10px;" src="./Accest/Amazon Logo Png.png" alt="" height="70%"
                             width="100%"></a>
                 </div>
                 <span id="in">.in</span>
             </div>
-            <a style="text-decoration: none;" href="#">
+            <a id="location-anchor" style="text-decoration: none;" href="#">
                 <div id="location-update">
                     <i id="location-icon" class="fa-solid fa-location-dot"></i>
                     <div id="u-l">
@@ -200,6 +201,24 @@
         </div>
     </header>
     <main>
+        <div class="choose-location hide">
+            <div class="choose-location-child-1">
+                <h3>Choose your location</h3>
+                <i id="x-mark" style="position: absolute; right: 20px; font-size: 20px; cursor: pointer;" class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="loader-parent">
+                <div class="loader-child"></div>
+            </div>
+            <div class="choose-location-child-2 hide">
+                <p>Select a delivery location to see product availability and delivery options</p>
+                <button>Sign in to see your address</button>
+                <p>-------------------or enter an Indian pincode-------------------</p>
+                <div class="input-button">
+                    <input type="text">
+                    <button>Apply</button>
+                </div>
+            </div>
+        </div>
         <div id="main-bg-img"></div>
         <div class="content-boxs">
             <div class="box" id="box1">
@@ -1410,6 +1429,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
