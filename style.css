@@ -486,7 +486,7 @@ main {
 
 .choose-location{
     border: 0.2px solid gray;
-    height: 250px;
+    height: 260px;
     position: absolute;
     width: 400px;
     background-color: white;
@@ -531,6 +531,62 @@ main {
     100% {
         rotate: 360deg;
     }
+}
+
+.choose-location-child-2 {
+    padding: 20px;
+}
+
+#choose-location-child-2-para1 {
+    /* border: 1px solid red; */
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#choose-location-child-2-para2 {
+    color: gray;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#input-of-choose-location-child-2 {
+    height: 35px;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-right: 5px;
+}
+
+#choose-location-child-2-button {
+    height: 35px;
+    width: 115px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#choose-location-child-2-button:hover {
+    background-color: #e8e2e2;
+}
+
+#button-of-choose-location-child-2 {
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#button-of-choose-location-child-2:hover {
+    background-color: rgb(233, 154, 6);
 }
 
 .hide {
